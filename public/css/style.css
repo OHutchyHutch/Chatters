@@ -71,6 +71,10 @@ a {
 	overflow-y: scroll;
 }
 
+.chat-sidebar-users {
+	float: right;
+}
+
 .chat-sidebar h2 {
 	font-size: 20px;
 	background: rgba(0, 0, 0, 0.1);
@@ -88,7 +92,7 @@ a {
 
 .chat-messages {
 	padding: 30px;
-	max-height: 500px;
+	max-height: 100%;
 	overflow-y: scroll;
 }
 
